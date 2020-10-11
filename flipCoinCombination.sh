@@ -1,9 +1,10 @@
 #!/bin/bash -x
 
 echo "welcome"
-echo -e "Entert The Number of Time you Want to Flip Coin : \c" 
+echo -e "Enter the Number  of time you want to flip coin : \c" 
 read number
-coins=2
+echo -e "how many coins :\c"
+coins=3
 declare -A dictionary
 H=0
 T=0
@@ -28,5 +29,4 @@ done
 }
 
 coin
-echo "${!dictiona
-ry[@]} : ${dictionary[@]}"
+echo "${!dictionary[@]} : ${dictionary[@]}"
